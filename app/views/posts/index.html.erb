@@ -1,0 +1,8 @@
+<div class="large-12 columns">
+<h1>Posts#index</h1>
+<hr>
+<% @posts.each do |post| %>
+  <%= post.title %> - <%= link_to 'Read Post', post %><br />
+  <hr>
+<% end %>
+</div>
