@@ -20,130 +20,70 @@
   	<%= javascript_include_tag "vendor/custom.modernizr" %>
     <%= csrf_meta_tags %>
   </head>
-
+  
   <body>
-    <div class="fixed">
-      <nav class="top-bar">
-        <ul class="title-area">
-          <!-- Title Area -->
-          <li class="name">
-            <h1><a href="#">Top Bar Title </a></h1>
-          </li>
-          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
+  	<div id="wrapper" class="">
+		  <div id="sideNav" class="large-3 columns">
+          	<nav class="site">
+	            <ul>
+	              <li><a href="http://topcoat.io/">Home</a></li>
+	              <li class="selected"><a href="http://topcoat.io/topcoat">Demo</a></li>
+	              <li><a href="http://bench.topcoat.io/">Benchmarks</a></li>
+	              <li><a href="http://topcoat.io/blog">Blog</a></li>
+	            </ul>
+	        </nav>
+	          <div id="pageNav">
+	            <ul>
+	              <li><a href="http://topcoat.io/topcoat/index.html#button-bar">Button Bar</a></li>
+	              <li><a href="http://topcoat.io/topcoat/index.html#large-buttonbar">Large Button Bar</a></li>
+	              <li><a href="http://topcoat.io/topcoat/index.html#button">Button</a></li>
+	              <li><a href="http://topcoat.io/topcoat/index.html#quiet-button">Quiet Button</a></li>
+	              <li><a href="http://topcoat.io/topcoat/index.html#large-button">Large Button</a></li>
+	              <li><a href="http://topcoat.io/topcoat/index.html#large-quietbutton">Large Quiet Button</a></li>
+	              <li><a href="http://topcoat.io/topcoat/index.html#call-toaction button">Call To Action Button</a></li>
+	              <li><a href="http://topcoat.io/topcoat/index.html#large-callto action button">Large Call To Action Button</a></li>
 
-        <section class="top-bar-section">
-          <!-- Left Nav Section -->
-          <ul class="left">
-            <li class="divider"></li>
-            <li class="active"><a href="#">Main Item 1</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Main Item 2</a></li>
-            <li class="divider"></li>
-            <li class="has-dropdown"><a href="#">Main Item 3</a>
+	            </ul>
+	          </div>
+		  </div>
+      </div>
+      
+          
+    
+     <div id="site" class="">
 
-              <ul class="dropdown">
-                <li class="has-dropdown"><a href="#">Dropdown Level 1a</a>
-
-                  <ul class="dropdown">
-                    <li><label>Dropdown Level 2 Label</label></li>
-                    <li><a href="#">Dropdown Level 2a</a></li>
-                    <li><a href="#">Dropdown Level 2b</a></li>
-                    <li class="has-dropdown"><a href="#">Dropdown Level 2c</a>
-
-                      <ul class="dropdown">
-                        <li><label>Dropdown Level 3 Label</label></li>
-                        <li><a href="#">Dropdown Level 3a</a></li>
-                        <li><a href="#">Dropdown Level 3b</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Dropdown Level 3c</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Dropdown Level 2d</a></li>
-                    <li><a href="#">Dropdown Level 2e</a></li>
-                    <li><a href="#">Dropdown Level 2f</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown Level 1b</a></li>
-                <li><a href="#">Dropdown Level 1c</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Dropdown Level 1d</a></li>
-                <li><a href="#">Dropdown Level 1e</a></li>
-                <li><a href="#">Dropdown Level 1f</a></li>
-                <li class="divider"></li>
-                <li><a href="#">See all &rarr;</a></li>
-              </ul>
-            </li>
-            <li class="divider"></li>
-          </ul>
-
-          <!-- Right Nav Section -->
-          <ul class="right">
-            <li class="divider hide-for-small"></li>
-            <li class="has-dropdown"><a href="#">Main Item 4</a>
-
-              <ul class="dropdown">
-                <li><label>Dropdown Level 1 Label</label></li>
-                <li class="has-dropdown"><a href="#" class="">Dropdown Level 1a</a>
-
-                  <ul class="dropdown">
-                    <li><a href="#">Dropdown Level 2a</a></li>
-                    <li><a href="#">Dropdown Level 2b</a></li>
-                    <li class="has-dropdown"><a href="#">Dropdown Level 2c</a>
-
-                      <ul class="dropdown">
-                        <li><a href="#">Dropdown Level 3a</a></li>
-                        <li><a href="#">Dropdown Level 3b</a></li>
-                        <li><a href="#">Dropdown Level 3c</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Dropdown Level 2d</a></li>
-                    <li><a href="#">Dropdown Level 2e</a></li>
-                    <li><a href="#">Dropdown Level 2f</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown Level 1b</a></li>
-                <li><a href="#">Dropdown Level 1c</a></li>
-                <li class="divider"></li>
-                <li><label>Dropdown Level 1 Label</label></li>
-                <li><a href="#">Dropdown Level 1d</a></li>
-                <li><a href="#">Dropdown Level 1e</a></li>
-                <li><a href="#">Dropdown Level 1f</a></li>
-                <li class="divider"></li>
-                <li><a href="#">See all &rarr;</a></li>
-              </ul>
-            </li>
-            <li class="divider"></li>
-            <li class="has-form">
-              <form>
-                <div class="row collapse">
-                  <div class="small-8 columns">
-                    <input type="text">
-                  </div>
-                  <div class="small-4 columns">
-                    <a href="#" class="alert button">Search</a>
-                  </div>
-                </div>
-              </form>
-            </li>
-            <li class="divider show-for-small"></li>
-            <li class="has-form">
-              <a class="button" href="#">Button!</a>
-            </li>
-          </ul>
-        </section>
-      </nav>
-    </div>
+	        	<header id="main-header">
+					<div class="max-width row">
+						<hgroup class="large-3 large-offset-0 medium-6 medium offset-3 small-6 small-offset-3 columns">
+							<h1><a href=#><img src="../images/treelogo.svg"></a></h1>
+						</hgroup>
+						<nav class="large-6 offset-6">
+							<ul>
+								<li class="selected"><a href="#">Demo</a></li>
+								<li><a href="http://bench.topcoat.io/">Benchmarks</a></li>
+								<li><a href="http://topcoat.io/blog">Blog</a></li>
+							</ul>
+						</nav><a id="slide-menu-button" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon--menu-stack"></span></a>
+					</div>
+				</header>
+		
+    
+    
     
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     
-    <div class="row">
+    <div id="content" class="row">
+    	
+			<div class="large-12 columns" class="max-width">
 
     <%= yield %>
+    
 
-    </div>
+    		</div>
+		
+  	</div>
+
     <%= javascript_include_tag "application" %>
   </body>
 </html>

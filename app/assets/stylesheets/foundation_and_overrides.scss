@@ -4,7 +4,7 @@
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
-$base-font-size: 18px;
+$base-font-size: 16px;
 
 // $base-line-height is 24px while $base-font-size is 16px
 $base-line-height: 24px;
@@ -63,9 +63,9 @@ $em-base: $base-font-size;
 
 $default-float: left;
 
-// $body-bg: #fff;
-// $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-bg: #F4F4F4;
+$body-font-color: #343e40;
+$body-font-family: 'Merriweather', Merriweather, serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -125,7 +125,7 @@ $default-float: left;
 
 // Media Queries
 
-// $small-screen: 768px;
+// $small-screen: 769px;
 // $medium-screen: 1280px;
 // $large-screen: 1440px;
 
@@ -172,7 +172,7 @@ $default-float: left;
 
 // Control header font styles
 
-// $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-family: 'PT Sans', PT Sans, sans-serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
 // $header-font-color: #222;
@@ -368,7 +368,7 @@ $default-float: left;
 
 // We use these to control button text styles.
 
-// $button-font-family: inherit;
+$button-font-family: 'Source Sans Pro', Source Sans Pro, sans-serif;;
 // $button-font-color: #fff;
 // $button-font-color-alt: #333;
 // $button-font-med: em-calc(16);
@@ -1012,7 +1012,7 @@ $default-float: left;
 
 // We use these to control the style of the modal itself.
 
-// $reveal-modal-bg: #fff;
+// $reveal-modal-bg: #FFF;
 // $reveal-position-top: 50px;
 $reveal-default-width: 95%;
 // $reveal-modal-padding: em-calc(20);
